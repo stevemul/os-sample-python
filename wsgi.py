@@ -3,7 +3,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "<b>Hello World!</b><br><img src=\"https://media.giphy.com/media/vvJmtPp31x2kEmHJdu/giphy.gif\">"
+    return "<b>Hello World!</b><br><img src=\"https://media.giphy.com/media/1pnWNEWYb41qa1NEmj/giphy.gif\">"
 
 @application.route("/demo")
 def hellodemo():
